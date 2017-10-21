@@ -21,7 +21,7 @@ def timer(n):
 
 print "This is a trial Simulation of a Smoke Detector"
 while 1:
-	ppm=random.randint(1,500t)
+	ppm=random.randint(1,500)
 	print ppm
 	if ppm<70:
 		water_sprinkler=False
